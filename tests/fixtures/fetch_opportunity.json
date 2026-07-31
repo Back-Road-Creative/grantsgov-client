@@ -1,0 +1,359 @@
+{
+ "errorcode": 0,
+ "msg": "Webservice Succeeds",
+ "token": "",
+ "data": {
+  "id": 361403,
+  "revision": 8,
+  "opportunityNumber": "HHS-2026-ACL-AOD-DFLA-0025",
+  "opportunityTitle": "Expanding Financial Literacy and Empowerment: Increasing Awareness and Use of ABLE Accounts for Americans with Disabilities",
+  "owningAgencyCode": "HHS-ACL",
+  "listed": "L",
+  "publisherUid": "0",
+  "modifiedComments": "Funding Instrument Type has been updated from Grant to Cooperative Agreement.",
+  "flag2006": "N",
+  "opportunityCategory": {
+   "category": "D",
+   "description": "Discretionary"
+  },
+  "synopsis": {
+   "opportunityId": 361403,
+   "version": 5,
+   "agencyCode": "HHS-ACL",
+   "agencyName": "Administration for Community Living",
+   "agencyPhone": "000-000-0000",
+   "agencyAddressDesc": "Government Email",
+   "agencyDetails": {
+    "code": "ACL",
+    "seed": "HHS-ACL",
+    "agencyName": "Administration for Community Living",
+    "agencyCode": "HHS-ACL",
+    "topAgencyCode": "HHS"
+   },
+   "topAgencyDetails": {
+    "code": "HHS",
+    "seed": "HHS",
+    "agencyName": "Department of Health and Human Services",
+    "agencyCode": "HHS",
+    "topAgencyCode": "HHS"
+   },
+   "agencyContactPhone": "000-000-0000",
+   "agencyContactName": "Administration for Community Living",
+   "agencyContactDesc": "Grants Management Office",
+   "agencyContactEmail": "grants@example.gov",
+   "agencyContactEmailDesc": "Government Email",
+   "synopsisDesc": "This grant is funded under the Projects of National Significance (PNS) authorized by the Developmental Disabilities Assistance and Bill of Rights Act. Its purpose is to increase awareness, access, and use of ABLE (Achieving a Better Life Experience) accounts so that individuals with disabilities have the resources needed to better support their health and economic well-being and improve their economic security and mobility. Since 2015, the ABLE Act has authorized states and territories to establish tax-advantaged programs\u2014ABLE accounts\u2014that allow individuals with disabilities to save and invest money. These accounts may be used for qualified disability expenses, including education, food, housing, transportation, employment training, assistive technology, and health care. Beginning in January 2026, ABLE eligibility requirements were expanded to include individuals with an age of disability onset up to 46, increased from the previous limit of 26. As a result, an estimated 14 million people will be eligible for ABLE accounts, including approximately 1.2 million veterans. This expansion presents a significant opportunity to broaden outreach to individuals receiving Medicaid and Supplemental Security Income (SSI), as well as individuals with disabilities who are not enrolled in disability benefit programs, to help overcome barriers to achieving good health and meaningful employment. To advance these goals, the grant will support strategies such as coordinated marketing efforts at the national, state, and community levels; population-specific approaches implemented through partnerships with ACL grantees and community stakeholders; and a strengthened systems approach at the state level. ACL recognizes that ABLE-related supports can play a critical role in increasing economic security and mobility for individuals with disabilities.",
+   "responseDate": "Aug 03, 2026 12:00:00 AM EDT",
+   "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+   "fundingDescLinkUrl": "https://acl.gov/grants/open-opportunities",
+   "fundingDescLinkDesc": "https://acl.gov/grants/open-opportunities",
+   "postingDate": "Jun 22, 2026 12:00:00 AM EDT",
+   "archiveDate": "Oct 30, 2026 12:00:00 AM EDT",
+   "costSharing": false,
+   "numberOfAwards": "1",
+   "estimatedFunding": "3000000",
+   "estimatedFundingFormatted": "3,000,000",
+   "awardCeiling": "1200000",
+   "awardCeilingFormatted": "1,200,000",
+   "awardFloor": "1000000",
+   "awardFloorFormatted": "1,000,000",
+   "applicantEligibilityDesc": "SEC. 162. of the DD Act of 2000 states that &quot;The Secretary shall award grants, contracts, or cooperative agreements to public or private nonprofit entities for projects of national significance relating to individuals with developmental disabilities to carry  out activities described in section 161(2).&quot; Foreign entities are not eligible to compete for, or receive, awards made under this announcement.",
+   "sendEmail": "Y",
+   "createTimeStamp": "Jul 14, 2026 02:12:16 PM EDT",
+   "modComments": "Updated total funding, award floor, award ceiling and expected award amount.",
+   "createdDate": "Jun 22, 2026 05:24:26 PM EDT",
+   "lastUpdatedDate": "Jul 14, 2026 02:12:16 PM EDT",
+   "applicantTypes": [
+    {
+     "id": "13",
+     "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+    },
+    {
+     "id": "20",
+     "description": "Private institutions of higher education"
+    },
+    {
+     "id": "06",
+     "description": "Public and State controlled institutions of higher education"
+    },
+    {
+     "id": "01",
+     "description": "County governments"
+    },
+    {
+     "id": "05",
+     "description": "Independent school districts"
+    },
+    {
+     "id": "07",
+     "description": "Native American tribal governments (Federally recognized)"
+    },
+    {
+     "id": "04",
+     "description": "Special district governments"
+    },
+    {
+     "id": "08",
+     "description": "Public housing authorities/Indian housing authorities"
+    },
+    {
+     "id": "12",
+     "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+    },
+    {
+     "id": "00",
+     "description": "State governments"
+    },
+    {
+     "id": "02",
+     "description": "City or township governments"
+    },
+    {
+     "id": "11",
+     "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+    }
+   ],
+   "fundingInstruments": [
+    {
+     "id": "CA",
+     "description": "Cooperative Agreement"
+    }
+   ],
+   "fundingActivityCategories": [
+    {
+     "id": "ISS",
+     "description": "Income Security and Social Services"
+    }
+   ],
+   "responseDateStr": "2026-08-03-00-00-00",
+   "postingDateStr": "2026-06-22-00-00-00",
+   "archiveDateStr": "2026-10-30-00-00-00",
+   "createTimeStampStr": "2026-07-14-14-12-16"
+  },
+  "agencyDetails": {
+   "code": "ACL",
+   "seed": "HHS-ACL",
+   "agencyName": "Administration for Community Living",
+   "agencyCode": "HHS-ACL",
+   "topAgencyCode": "HHS"
+  },
+  "topAgencyDetails": {
+   "code": "HHS",
+   "seed": "HHS",
+   "agencyName": "Department of Health and Human Services",
+   "agencyCode": "HHS",
+   "topAgencyCode": "HHS"
+  },
+  "forecast": {
+   "opportunityId": 361403,
+   "version": 4,
+   "postingDate": "Mar 03, 2026 12:00:00 AM EST",
+   "archiveDate": "Jun 21, 2026 12:00:00 AM EDT",
+   "forecastDesc": "<p>This grant is funded under the Projects of National Significance (PNS) authorized by the Developmental Disabilities Assistance and Bill of Rights Act. Its purpose is to increase awareness, access, and use of ABLE (Achieving a Better Life Experience) accounts so that individuals with disabilities have the resources needed to better support their health and economic well-being and improve their economic security and mobility. Since 2015, the ABLE Act has authorized states and territories to establish tax-advantaged programs\u2014ABLE accounts\u2014that allow individuals with disabilities to save and invest money. These accounts may be used for qualified disability expenses, including education, food, housing, transportation, employment training, assistive technology, and health care. Beginning in January 2026, ABLE eligibility requirements were expanded to include individuals with an age of disability onset up to 46, increased from the previous limit of 26. As a result, an estimated 14 million people will be eligible for ABLE accounts, including approximately 1.2 million veterans. This expansion presents a significant opportunity to broaden outreach to individuals receiving Medicaid and Supplemental Security Income (SSI), as well as individuals with disabilities who are not enrolled in disability benefit programs, to help overcome barriers to achieving good health and meaningful employment. To advance these goals, the grant will support strategies such as coordinated marketing efforts at the national, state, and community levels; population-specific approaches implemented through partnerships with ACL grantees and community stakeholders; and a strengthened systems approach at the state level. ACL recognizes that ABLE-related supports can play a critical role in increasing economic security and mobility for individuals with disabilities.</p>",
+   "costSharing": false,
+   "numberOfAwards": "1",
+   "estimatedFunding": "1500000",
+   "awardCeiling": "1500000",
+   "awardFloor": "1000000",
+   "fundingDescLinkUrl": "https://acl.gov/grants/open-opportunities",
+   "fundingDescLinkDesc": "https://acl.gov/grants/open-opportunities",
+   "agencyContactName": "Administration for Community Living",
+   "agencyContactPhone": "000-000-0000",
+   "agencyContactEmail": "grants@example.gov",
+   "agencyContactEmailDesc": "Government Email",
+   "agencyCode": "HHS-ACL",
+   "applicantEligibilityDesc": "SEC. 162. of the DD Act of 2000 states that &quot;The Secretary shall award grants, contracts, or cooperative agreements to public or private nonprofit entities for projects of national significance relating to individuals with developmental disabilities to carry  out activities described in section 161(2).&quot; Foreign entities are not eligible to compete for, or receive, awards made under this announcement.",
+   "estSynopsisPostingDate": "Apr 22, 2026 12:00:00 AM EDT",
+   "estApplicationResponseDate": "Jun 22, 2026 12:00:00 AM EDT",
+   "estAwardDate": "Aug 28, 2026 12:00:00 AM EDT",
+   "estProjectStartDate": "Sep 01, 2026 12:00:00 AM EDT",
+   "fiscalYear": 2026,
+   "modComments": "Updated Archive Date",
+   "createTimeStamp": "Jun 26, 2026 04:18:45 PM EDT",
+   "createdDate": "Mar 03, 2026 01:33:06 PM EST",
+   "lastUpdatedDate": "Jun 26, 2026 04:18:45 PM EDT",
+   "agencyDetails": {
+    "code": "ACL",
+    "seed": "HHS-ACL",
+    "agencyName": "Administration for Community Living",
+    "agencyCode": "HHS-ACL",
+    "topAgencyCode": "HHS"
+   },
+   "estimatedFundingFormatted": "1,500,000",
+   "awardCeilingFormatted": "1,500,000",
+   "awardFloorFormatted": "1,000,000",
+   "applicantTypes": [
+    {
+     "id": "13",
+     "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+    },
+    {
+     "id": "06",
+     "description": "Public and State controlled institutions of higher education"
+    },
+    {
+     "id": "01",
+     "description": "County governments"
+    },
+    {
+     "id": "05",
+     "description": "Independent school districts"
+    },
+    {
+     "id": "07",
+     "description": "Native American tribal governments (Federally recognized)"
+    },
+    {
+     "id": "04",
+     "description": "Special district governments"
+    },
+    {
+     "id": "08",
+     "description": "Public housing authorities/Indian housing authorities"
+    },
+    {
+     "id": "12",
+     "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+    },
+    {
+     "id": "00",
+     "description": "State governments"
+    },
+    {
+     "id": "02",
+     "description": "City or township governments"
+    },
+    {
+     "id": "11",
+     "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+    }
+   ],
+   "fundingInstruments": [
+    {
+     "id": "CA",
+     "description": "Cooperative Agreement"
+    }
+   ],
+   "fundingActivityCategories": [
+    {
+     "id": "ISS",
+     "description": "Income Security and Social Services"
+    }
+   ],
+   "postingDateStr": "2026-03-03-00-00-00",
+   "archiveDateStr": "2026-06-21-00-00-00",
+   "estSynopsisPostingDateStr": "2026-04-22-00-00-00",
+   "estApplicationResponseDateStr": "2026-06-22-00-00-00",
+   "estAwardDateStr": "2026-08-28-00-00-00",
+   "estProjectStartDateStr": "2026-09-01-00-00-00",
+   "createTimeStampStr": "2026-06-26-16-18-45"
+  },
+  "synopsisAttachmentFolders": [
+   {
+    "id": 80497,
+    "opportunityId": 361403,
+    "folderType": "Full Announcement",
+    "folderName": "Full Announcement",
+    "zipLobSize": 350736,
+    "createdDate": "Jun 26, 2026 04:18:44 PM EDT",
+    "lastUpdatedDate": "Jun 26, 2026 04:18:45 PM EDT",
+    "synopsisAttachments": [
+     {
+      "id": 353418,
+      "opportunityId": 361403,
+      "mimeType": "application/pdf",
+      "fileName": "hhs-2026-acl-aod-dfla-0025.pdf",
+      "fileDescription": "hhs-2026-acl-aod-dfla-0025.pdf",
+      "fileLobSize": 384037,
+      "createdDate": "Jun 26, 2026 04:18:45 PM EDT",
+      "synopsisAttFolderId": 80497
+     }
+    ]
+   }
+  ],
+  "synopsisDocumentURLs": [],
+  "synAttChangeComments": [],
+  "cfdas": [
+   {
+    "id": 432111,
+    "opportunityId": 361403,
+    "cfdaNumber": "93.631",
+    "programTitle": "Developmental Disabilities Projects of National Significance"
+   }
+  ],
+  "opportunityPkgs": [
+   {
+    "id": 293415,
+    "topportunityId": 361403,
+    "familyId": 15,
+    "dialect": "XFDL2.2",
+    "opportunityNumber": "HHS-2026-ACL-AOD-DFLA-0025",
+    "opportunityTitle": "Expanding Financial Literacy and Empowerment: Increasing Awareness and Use of ABLE Accounts for Americans with Disabilities",
+    "cfdaNumber": "93.631",
+    "openingDate": "2026-06-26",
+    "closingDate": "2026-08-03",
+    "owningAgencyCode": "HHS-ACL",
+    "agencyDetails": {
+     "code": "ACL",
+     "seed": "HHS-ACL",
+     "agencyName": "Administration for Community Living",
+     "agencyCode": "HHS-ACL",
+     "topAgencyCode": "HHS"
+    },
+    "topAgencyDetails": {
+     "code": "HHS",
+     "seed": "HHS",
+     "agencyName": "Department of Health and Human Services",
+     "agencyCode": "HHS",
+     "topAgencyCode": "HHS"
+    },
+    "programTitle": "Developmental Disabilities Projects of National Significance",
+    "contactInfo": "Grants Management Office",
+    "gracePeriod": 0,
+    "competitionId": "HHS-2026-ACL-AOD-DFLA-0025",
+    "competitionTitle": "Expanding Financial Literacy and Empowerment: Increasing Awareness and Use of ABLE Accounts for Americans with Disabilities",
+    "electronicRequired": "Y",
+    "expectedApplicationCount": 8,
+    "expectedApplicationSize": 0,
+    "openToApplicantType": 1,
+    "listed": "L",
+    "isMultiProject": "N",
+    "extension": "pdf",
+    "mimetype": "application/pdf",
+    "lastUpdate": "Jun 26, 2026 04:18:13 PM EDT",
+    "workspaceCompatibleFlag": "Y",
+    "packageId": "PKG00293415",
+    "openingDateStr": "2026-06-26-00-00-00",
+    "closingDateStr": "2026-08-03-00-00-00"
+   }
+  ],
+  "closedOpportunityPkgs": [],
+  "originalDueDate": "Jul 22, 2026 12:00:00 AM EDT",
+  "originalDueDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+  "synopsisModifiedFields": [
+   "revision",
+   "version",
+   "estimatedFunding",
+   "awardCeiling",
+   "createTimeStamp"
+  ],
+  "forecastModifiedFields": [
+   "revision",
+   "version",
+   "sendEmail",
+   "archiveDate",
+   "modComments",
+   "createTimeStamp"
+  ],
+  "errorMessages": [],
+  "synPostDateInPast": true,
+  "docType": "synopsis",
+  "forecastHistCount": 3,
+  "synopsisHistCount": 4,
+  "assistCompatible": false,
+  "assistURL": "",
+  "relatedOpps": [],
+  "draftMode": "N",
+  "ost": "POSTED"
+ }
+}

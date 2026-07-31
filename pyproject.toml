@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grantsgov-client"
+version = "0.1.0"
+description = "Keyless connectors for public US grant and nonprofit data, with an explainable fit scorer."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Joe Petrucelli", email = "joepetjr@gmail.com" }]
+keywords = ["grants", "grants.gov", "nonprofit", "propublica", "ein", "funding"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Office/Business",
+]
+# No runtime dependencies. urllib from the standard library is the whole
+# transport, and that is a promise, not an accident - adding one here would
+# break the "zero dependencies, zero API keys" claim in the README.
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+# E/W pycodestyle, F pyflakes, I import order, S flake8-bandit (so the two
+# `# noqa: S310` annotations on the urllib calls suppress something real),
+# RUF100 so a stale noqa is an error rather than dead decoration.
+select = ["E", "W", "F", "I", "S", "RUF100"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*.py" = ["S101"]  # a test suite asserts

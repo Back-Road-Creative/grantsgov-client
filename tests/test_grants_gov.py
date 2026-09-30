@@ -132,6 +132,43 @@ def test_an_upstream_error_envelope_raises():
     assert "Webservice Failed" in str(caught.value)
 
 
+@pytest.mark.parametrize("payload", [
+    [],
+    ["not", "an", "envelope"],
+    "not an envelope",
+    "",
+    None,
+    42,
+    {},
+    {"errorcode": 0},
+    {"errorcode": 0, "data": None},
+    {"errorcode": 0, "data": []},
+    {"errorcode": 0, "data": "oops"},
+    {"errorcode": "0", "data": {}},
+    {"msg": "no code", "data": {}},
+    {"errorcode": 500, "msg": "boom"},
+], ids=repr)
+@pytest.mark.parametrize("call", ["sweep", "fetch_detail"])
+def test_a_malformed_envelope_raises_connector_error(payload, call):
+    def fetch(endpoint, body):
+        return payload
+
+    with pytest.raises(grants_gov.ConnectorError) as caught:
+        if call == "sweep":
+            list(grants_gov.sweep(fetch, sleep=lambda _s: None))
+        else:
+            grants_gov.fetch_detail(fetch, 1)
+    assert "search2" in str(caught.value) or "fetchOpportunity" in str(caught.value)
+
+
+def test_an_empty_data_object_is_still_a_valid_envelope():
+    def fetch(endpoint, body):
+        return {"errorcode": 0, "data": {}}
+
+    assert list(grants_gov.sweep(fetch, sleep=lambda _s: None)) == []
+    assert grants_gov.fetch_detail(fetch, 1) == {}
+
+
 def test_fetch_detail_unwraps_the_envelope():
     detail = grants_gov.fetch_detail(make_fetcher(), "361403")
     assert detail["opportunityNumber"] == "HHS-2026-ACL-AOD-DFLA-0025"

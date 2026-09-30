@@ -202,6 +202,12 @@ tests use exactly this seam — see `tests/`.
   strictly *less* traffic than a healthy one. Three attempts, then it raises.
 - **A 4xx is never retried.** It means the request was wrong; repeating it is
   just hammering.
+- **A malformed response is one error.** `sweep` and `fetch_detail` raise
+  `ConnectorError` for an upstream `errorcode` other than 0 and for a body that
+  is not a JSON object (a list, a string, null), and for a success envelope
+  whose `data` is missing or not an object. Nothing else escapes from a bad
+  payload, so one `except ConnectorError` covers every upstream failure that
+  is not a transport fault. An empty `data` object is valid and yields no hits.
 - **A bad record is quarantined, not fatal.** `normalize_hit` returns `None`
   for a record with no id, no title, or an unrecognised status, so one broken
   row out of thousands does not abort a sweep.

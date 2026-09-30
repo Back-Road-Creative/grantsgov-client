@@ -113,12 +113,28 @@ def since_fetcher(fetcher, date_range):
 
 
 def _envelope(data, endpoint):
-    """Unwrap the {errorcode, msg, data} envelope both endpoints return."""
-    if not isinstance(data, dict) or data.get("errorcode") != 0:
+    """Unwrap the {errorcode, msg, data} envelope both endpoints return.
+
+    Raises `ConnectorError` for every way the response can fail to be one: an
+    upstream error code, a body that is not a JSON object (list, string,
+    null), or a success envelope whose `data` is missing or not an object.
+    Callers never see an AttributeError or KeyError from a bad payload.
+    """
+    if not isinstance(data, dict):
+        raise ConnectorError(
+            f"{endpoint}: malformed response: expected a JSON object, "
+            f"got {type(data).__name__}")
+    if data.get("errorcode") != 0:
         raise ConnectorError(
             f"{endpoint}: upstream error "
-            f"{(data or {}).get('errorcode')}: {(data or {}).get('msg')}")
-    return data["data"]
+            f"{data.get('errorcode')}: {data.get('msg')}")
+    payload = data.get("data")
+    if not isinstance(payload, dict):
+        raise ConnectorError(
+            f"{endpoint}: malformed response: 'data' is "
+            f"{'missing' if 'data' not in data else type(payload).__name__}, "
+            "expected a JSON object")
+    return payload
 
 
 def sweep(fetcher=http_fetch, sleep=time.sleep, statuses="posted|forecasted",
